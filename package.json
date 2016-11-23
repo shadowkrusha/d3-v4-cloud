@@ -1,6 +1,6 @@
 {
-  "name": "d3-cloud",
-  "version": "2.0.0",
+  "name": "d3-v4-cloud",
+  "version": "1.0.0",
   "description": "Generate word clouds in JavaScript.",
   "keywords": [
     "word",
@@ -17,7 +17,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "http://github.com/jasondavies/d3-cloud.git"
+    "url": "https://github.com/sly7-7/d3-v4-cloud.git"
   },
   "main": "build/d3-cloud.js",
   "jsnext:main": "index",
