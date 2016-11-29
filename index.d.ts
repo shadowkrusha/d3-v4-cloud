@@ -4,7 +4,7 @@
 export function cloud(): Cloud<Word>;
 export function cloud<T extends Word>(): Cloud<T>;
 
-interface Word {
+export interface Word {
     text?: string;
     font?: string;
     style?: string;
@@ -16,7 +16,7 @@ interface Word {
     y?: number;
 }
 
-interface Cloud<T extends Word> {
+export interface Cloud<T extends Word> {
     start(): Cloud<T>;
     stop(): Cloud<T>;
 
