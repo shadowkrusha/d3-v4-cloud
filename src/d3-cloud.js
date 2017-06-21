@@ -1,4 +1,4 @@
-import dispatch from 'd3-dispatch';
+import * as dispatch from 'd3-dispatch';
 
 var cloudRadians = Math.PI / 180,
     cw = 1 << 11 >> 5,
